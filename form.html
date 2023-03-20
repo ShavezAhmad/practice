@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My new Form</title>
+</head>
+<body>
+    <form action="./index2.html">
+    <div class="header">
+    <label for="fname">First Name</label>
+    <input type="text" name="fname" id="fname" required>
+    </div>
+    <div><label for="lname">Last Name</label>
+        <input type="text" name="lname" id="lname" required>
+    </div>   
+    <div>
+    Enter your gender:
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="fm">
+
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="m">
+
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other" value="other">
+    </div>
+    <div>
+    Select programming Languages: 
+    <input type="checkbox" name="prog" id="HTML" value="HTML">HTML
+    <input type="checkbox" name="prog" id="CSS" value="CSS">CSS
+    <input type="checkbox" name="prog" id="JS" value="JS">JS
+
+    </div>
+    <div>
+    <label for="motivation">Motivational Level</label>
+    <select name="motivation" id="motivation">
+        <option value="Highly Motivated">Highly Motivated</option>
+        <option value="Less Motivated">Less Motivated</option>
+    </select>
+
+    </div>
+    <div>
+    Reason for motivation level <br>
+    <textarea name="textarea" id="text" rows="10" cols="20"></textarea>
+    </div>
+    <div>
+    <label for="email" required>Enter your email:</label>
+    <input type="email" name="email" id="email">
+    </div>
+    <div>
+    <label for="birth">Enter your DOB:</label>
+    <input type="date" name="birth" id="birth" required>
+    </div>
+    <div>
+    <label for="phone">Enter your phone number:</label>
+    <input type="tel" name="phone" id="phone" maxlength="10" >
+    </div>
+    <div>
+    <input type="submit" value="Submit your form">
+    </div>
+    </form>
+
+    <br><br>
+
+    <!-- <iframe id="inlineFrameExample"
+    title="Inline Frame Example"
+    width="300"
+    height="200"
+    src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
+</iframe> -->
+
+
+<table border="2" width="50%">
+    <caption>Invoice</caption>
+    <tr>
+        <th>Item</th>
+        <th>Quantity</th>
+        <th>Price</th>
+    </tr>
+    <tr>
+        <td>101</td>
+        <td>23</td>
+        <td>2220</td>
+    </tr>
+    <tr>
+        <td>102</td>
+        <td>24</td>
+        <td>2222</td>
+    </tr>
+    <tr>
+        <td colspan="2">1001</td>
+        <td>2213</td>
+    </tr>
+    <tr>
+        <th rowspan="2">Tax</th>
+        <td rowspan="2">7%</td>
+        <td>32109</td>
+    </tr>
+
+    <tr>
+        <td>12345</td>
+    </tr>
+
+</table>
+</body>
+</html>
